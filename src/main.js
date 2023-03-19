@@ -1,12 +1,10 @@
 import { createApp } from 'vue'
-import {
-  createRouter,
-  createWebHistory
-} from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router'
 
 import App from './App.vue'
 import Home from './Views/Home.vue'
 import TwStates from './Views/TwStates.vue'
+import MediaAndFeaturesQ from './Views/MediaAndFeaturesQ.vue'
 import './assets/main.css'
 
 const router = createRouter({
@@ -21,6 +19,11 @@ const router = createRouter({
       path: '/tailwind-states',
       name: 'tailwind-states',
       component: TwStates
+    },
+    {
+      path: '/media-and-feature-queries',
+      name: 'mediaAndFeatureQueries',
+      component: MediaAndFeaturesQ
     }
   ]
 })

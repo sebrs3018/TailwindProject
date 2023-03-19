@@ -1,10 +1,13 @@
 <script setup></script>
 <template>
   <button
-    class="bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 text-sky-50 p-2 border-2 rounded-lg"
+    class="rounded-lg border-2 bg-violet-500 p-2 text-sky-50 hover:bg-violet-600 focus:outline-none focus:ring focus:ring-violet-300 active:bg-violet-700"
   >
-    <router-link to="/tailwind-states"
-      >Tailwind states</router-link
-    >
+    <router-link to="/tailwind-states">Tailwind states</router-link>
+  </button>
+  <button
+    class="rounded-lg border-2 bg-violet-500 p-2 text-sky-50 hover:bg-violet-600 focus:outline-none focus:ring focus:ring-violet-300 active:bg-violet-700"
+  >
+    <router-link to="/media-and-feature-queries">Media And Feature Queries</router-link>
   </button>
 </template>
