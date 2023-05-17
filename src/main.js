@@ -5,6 +5,7 @@ import App from './App.vue'
 import Home from './Views/Home.vue'
 import TwStates from './Views/TwStates.vue'
 import MediaAndFeaturesQ from './Views/MediaAndFeaturesQ.vue'
+import FloatingLabelDemo from './Views/FloatingLabelDemo.vue'
 import './assets/main.css'
 
 const router = createRouter({
@@ -24,6 +25,11 @@ const router = createRouter({
       path: '/media-and-feature-queries',
       name: 'mediaAndFeatureQueries',
       component: MediaAndFeaturesQ
+    },
+    {
+      path: '/floating-label-demo',
+      name: 'floatingLabelDemo',
+      component: FloatingLabelDemo
     }
   ]
 })
