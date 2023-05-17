@@ -6,7 +6,8 @@ module.exports = {
       colors: {
         'w-blue': '#2b5dff',
         periwinkle: '#b4c2f0',
-        'eerie-black': '#222'
+        'eerie-black': '#222',
+        mock: 'red'
       }
     }
   },
