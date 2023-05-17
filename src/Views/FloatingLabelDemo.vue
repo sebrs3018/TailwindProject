@@ -36,10 +36,20 @@
       </p>
       <form class="w-full justify-center">
         <div class="relative mt-3">
-          <input id="email" type="email" placeholder="Email" class="w-full" />
+          <input
+            id="email"
+            type="email"
+            placeholder="Email"
+            class="h-10 w-full border-b-2 border-gray-300 text-eerie-black focus:border-w-blue focus:outline-none"
+          />
         </div>
         <div class="relative mt-3">
-          <input id="password" type="password" placeholder="Password" class="w-full" />
+          <input
+            id="password"
+            type="password"
+            placeholder="Password"
+            class="h-10 w-full border-b-2 border-gray-300 text-eerie-black focus:border-w-blue focus:outline-none"
+          />
         </div>
         <p class="my-5 text-sm text-w-blue">Password dimenticata?</p>
         <button class="h-10 w-full rounded-3xl bg-w-blue text-white" type="submit">Accedi</button>

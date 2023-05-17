@@ -5,7 +5,8 @@ module.exports = {
     extend: {
       colors: {
         'w-blue': '#2b5dff',
-        periwinkle: '#b4c2f0'
+        periwinkle: '#b4c2f0',
+        'eerie-black': '#222'
       }
     }
   },
