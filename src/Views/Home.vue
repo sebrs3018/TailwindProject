@@ -1,5 +1,8 @@
-<script setup></script>
+<script setup>
+import { functionalSvg } from '../components/functionalSvg'
+</script>
 <template>
+  <functionalSvg />
   <button
     class="rounded-lg border-2 bg-violet-500 p-2 text-sky-50 hover:bg-violet-600 focus:outline-none focus:ring focus:ring-violet-300 active:bg-violet-700"
   >
