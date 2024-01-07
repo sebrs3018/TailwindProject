@@ -75,6 +75,7 @@ const submit = () => {
           width="auto"
           alt="wikicasa logo"
       /></picture>
+      <!-- Dark mode button -->
       <button class="my-5 w-full rounded-2xl border border-periwinkle p-2 text-sm" type="button">
         <img
           height="24"
@@ -91,6 +92,7 @@ const submit = () => {
         oppure
       </p>
       <form class="w-full justify-center" @submit.prevent.stop="submit">
+        <!-- Email input -->
         <div class="relative mt-3">
           <input
             ref="emailEl"
@@ -107,16 +109,22 @@ const submit = () => {
             >Email</label
           >
         </div>
-        <div class="relative mt-3">
+        <!-- Password input -->
+        <div class="relative mt-9 pt-3">
           <input
             ref="passwordEl"
             id="password"
             type="password"
             v-model="formState.password.value"
             @input="passwordEl?.setCustomValidity('')"
-            placeholder="Password"
-            class="h-10 w-full border-b-2 border-gray-300 text-eerie-black focus:border-w-blue focus:outline-none"
+            placeholder="mock"
+            class="peer h-10 w-full border-b-2 border-gray-300 text-eerie-black placeholder-transparent focus:border-w-blue focus:outline-none dark:bg-rich-black dark:text-white"
           />
+          <label
+            for="password"
+            class="pointer-events-none absolute -top-3.5 left-0 text-sm text-gray-900 transition-all peer-placeholder-shown:top-2 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-focus:-top-3.5 peer-focus:text-sm peer-focus:text-gray-900 dark:text-gray-200 dark:peer-focus:text-gray-200"
+            >Password</label
+          >
         </div>
         <p class="my-5 text-sm text-w-blue">Password dimenticata?</p>
         <button
